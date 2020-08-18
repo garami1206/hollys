@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*헤더*/
+
+#header{position: relative;}
+#header h1{text-align: center; padding-top: 50px; padding-bottom: 20px; }
+#header h1 a{}
+#header h1 img{}
+
+.utill01 {position: absolute;top:0px;}
+.utill01 li{float: left;width: 99px; height: 76px; text-align: center; top:10px; }
+.utill01 li:last-child img{margin-top: 20px;}
+.utill01 a{height: 100%; display: block;}
+.utill01 img{}
+
+.utill02 {position: absolute; right: 0px;top: 0px;}
+.utill02 li{float: left; top: 0; right: 0;}
+.utill02 li:first-child:before{display: none;}
+.utill02 li:before{content: "";display: inline-block; width: 1px; height: 11px; background: gray; margin: 0 10; }
+.utill02 a{}
+.utill02 img{}
+
+/*메뉴*/
+.gnb {text-align: center; font-size: 0; padding-bottom: 10px;}
+.gnb>ul{display: inline-block;}
+.gnb>ul>li{float: left; padding: 0 30px; position: relative;}
+.gnb .on{display: none;}
+.gnb li:hover .on{display: block;}
+.gnb li:hover .off{display: none;}
+
+/*서브메뉴*/
+.lnb{display: none; width: 100%; background: #fff; line-height: 60px; position: absolute; z-index: 1; left: 0;}
+.gnb li:hover .lnb{display: block;}
+.lnb li:hover {background: gray}
+.lnb a{display: block;}
+
+/*푸터*/
+
+#footer{background: url(/images/bg_footer.gif); padding: 50 0px; margin-top: 50px;}
+
+.fMenu{margin-bottom: 20px;}
+.fMenu li{float: left;}
+.fMenu li:hover a{color: black; text-decoration: underline;}
+.fMenu li:after{content: "";display: inline-block;background-color: white; width: 1; height: 12px; margin: 0 4;}
+.fMenu li:last-child:after{display: none;}
+.fMenu li a{color: #fff;}
+
+.fInfo{}
+.fInfo p{color: #de898e; font-size:12px;}

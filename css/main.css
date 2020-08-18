@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+
+/*컨테이너*/
+
+.container{}
+
+
+/*메인슬라이더*/
+.mainSlider{height: 480px; position: relative;}
+.mainSlider a{}
+.mainSlider img{position: absolute; left: 50%; margin-left: -980px; overflow: hidden;}
+
+
+/*mainCon01*/
+.mainCon01{padding: 50 0;}
+.con01{width: 205; margin-right: 35px; float: left;}
+
+.con01 h3{}
+.con01 h3 img{}
+
+.mall{width: 460px;font-size:12px;}
+.mall p{color: #555; margin: 10 0;}
+.mallMenu{padding: 20 0;}
+.mallMenu li{float: left; width: 150px; text-align: center; background: url(/images/mall_bar01.gif) no-repeat}
+.mallMenu li:first-child{background: none;}
+.mallMenu li a{color: #555;}
+.mallMenu li img{display: block;margin: 0 auto;}
+
+.store{margin-right: 0}
+
+
+/*mainCon02*/
+.mainCon02{}
+.mainCon02 li{float: left;}
+.mainCon02 li a{}
+.mainCon02 li img{display: block;}
+
+/*mainCon03*/
+.mainCon03{padding: 50 0px; height: 100px; border-bottom: solid red; margin-bottom: 30px;}
+
+.con03{float: left; width: 205; margin-right: 35px; font-size:12px;}
+.con03 h3{}
+.con03 p{color:#555;padding: 10 0px;}
+.con03 a{color:#555;}
+.con03 a img{vertical-align:top;}
+
+.quickMenu{margin-right: 0;}
+
+.news h3{display: inline-block;}
+
+.newslist{padding-top: 10px;}
+.newslist li{position: relative; padding: 1 0px;}
+.newslist a{display: inline-block; width: 150px; white-space: nowrap; overflow: hidden; text-overflow:ellipsis}
+.newslist span{position: absolute; top: 0; right: 0;}
+
+.quickMenu{;}
+.quickMenu li{float: left;background: url(/images/mall_bar01.gif) no-repeat;padding: 0 5px;}
+.quickMenu li:first-child{background: none}
+.quickMenu a{}
+.quickMenu a img{display: block; margin: 0 auto;}
+
+/*mainCon04*/
+
+.mainCon04 h2{margin-bottom: 20px;}
+
+.con04Menu li{float: left; margin-right: 35px; width: 205px; font-size: 12px;background: url(/images/48_48.png) no-repeat left                  center;}
+.con04Menu li:hover a p{text-decoration: underline;}
+.con04Menu li:hover span{text-decoration:none;}
+.con04Menu li:hover {background: url(/images/48_48_on.PNG) no-repeat left center;}
+.con04Menu li:last-child{margin-right: 0;}
+.con04Menu li a{display: inline-block;padding-left: 60px;}
+.con04Menu li span{display: block; color: blue;}
